@@ -28,7 +28,7 @@ def dict2() :
     wordsintxt.sort()
     print (wordsintxt)
     for w in wordsintxt :
-        counttxt[w] = counttxt.get(w,0) +1
+        counttxt[w] = counttxt.get(w,0) + 1
 
     print (counttxt)
     for k in counttxt :
